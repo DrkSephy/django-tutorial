@@ -1,6 +1,6 @@
 # Django Tutorial
 
-Django tutorial application built using Requests, Bower, Twitter Bootstrap and Github API
+Django tutorial application built using Requests, Bower, Twitter Bootstrap and Github API.
 
 # Installation
 
@@ -21,6 +21,8 @@ With Bower, you can install the front-end dependencies by running:
     bower install
 
 This will generate the **static** folder along with **bootstrap** and **jquery** inside it.
+
+**NOTE**: The `settings.py` file has already been configured to have Django look for all CSS, JavaScript and images to be stored inside of the `/demonstration/app/static` folder.
 
 # Running the project
 

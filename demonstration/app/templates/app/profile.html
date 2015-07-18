@@ -8,6 +8,7 @@
     </head>
 <body>
     <h1 class="text-center"> Github User Data </h1>
+        
         <style>
           .form-signin {
             max-width: 550px;
@@ -18,14 +19,13 @@
 
 
         <div class="container text-center">
-            <form class="form-signin" id="login_form" method="post" action="/app/profile/">
+            <form class="form-signin" method="post" action="/app/profile/">
               {% csrf_token %}
 
               <br>
-              <input type="text" name="user" class="form-control" placeholder="Github User Name, e.g: DrkSephy" value="" required autofocus>
+              <input type="text" name="user" class="form-control" placeholder="Github User Name, e.g: DrkSephy" required autofocus>
               <br>
               <button class="btn btn-lg btn-primary btn-block" type="submit">Get Data</button>
-              <input type="hidden" name="submit" value="submit" />
             </form>
         </div>
 

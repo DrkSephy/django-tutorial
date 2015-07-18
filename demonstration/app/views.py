@@ -13,9 +13,9 @@ def test(request):
 def profile(request):
 	parsedData = []
 	if request.method == 'POST':
-		user = request.POST.get('user')
+		username = request.POST.get('user')
+		req = requests.get('https://api.github.com/users/' + username)
 		jsonList = []
-		req = requests.get('https://api.github.com/users/' + user)
 		jsonList.append(json.loads(req.content))
 		userData = {}
 		for data in jsonList:
