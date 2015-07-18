@@ -1,4 +1,4 @@
-# django-tutorial
+# Django Tutorial
 
 Django tutorial application built using Requests, Bower, Twitter Bootstrap and Github API
 
