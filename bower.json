@@ -1,0 +1,20 @@
+{
+  "name": "demonstration",
+  "version": "0.0.0",
+  "homepage": "https://github.com/DrkSephy/WaterEmblem",
+  "authors": [
+    "David Leonard <sephirothcloud1025@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "demonstration/app/static/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
